@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 /********************/
 /* Proprietà header */
@@ -19,4 +20,32 @@ nav {
 }
 #navLinks {
     color: white;
+}
+/******************/
+/* Proprietà body */
+/******************/
+/* Section skills */
+/* ************** */
+.skills {
+    width: 90%;
+    margin: 40px auto;
+}
+.demo{
+    padding-bottom: 0px!important;
+}
+.blueBack {
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px auto;
+}
+.blueText {
+    color: #0084fd;
+}
+.pic{
+    width: 100%;
+    display: block;
+}
+.centerText{
+    text-align: center;
 }
