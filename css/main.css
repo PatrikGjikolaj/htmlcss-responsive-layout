@@ -65,3 +65,37 @@ nav {
 .arrow {
     background-color: #9792e4;
 }
+/***********************/
+/* Section testimonial */
+/***********************/
+.user {
+    background-color: #9792e4;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px auto;
+}
+.whiteText {
+    color: white;
+}
+.profile {
+    border-radius: 100%;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+/********************/
+/* Section benefits */
+/********************/
+.benefits {
+    background-color: #9792e4;
+}
+.benefit {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+.benefit1 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px auto;
+}
