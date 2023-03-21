@@ -53,6 +53,13 @@ nav {
 .sLogo {
     font-size: 50px;
 }
+.sBtn {
+    color: white;
+    background-color: #0084fd;
+    border-radius: 20px;
+    border: 0px;
+    padding: 5px 10px;
+}
 /*****************/
 /* Section plans */
 /*****************/
@@ -74,16 +81,16 @@ nav {
 .user {
     background-color: #9792e4;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px;
     margin: 30px auto;
 }
 .whiteText {
     color: white;
 }
 .profile {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1;
 }
 /********************/
 /* Section benefits */
@@ -112,6 +119,18 @@ nav {
     border: 0px;
     border-radius: 20px;
 }
+/*******************/
+/* Section aboutUs */
+/*******************/
+.aboutUs {
+    padding: 20px;
+}
+.ab1 {
+    width: 80%;
+}
+.ab2 {
+    width: 20%;
+}
 /**********************/
 /* Section getStarted */
 /**********************/
@@ -127,6 +146,13 @@ h1 {
     font-size: 5px;
     text-align: top;
 }
+.gBtn {
+    color: #9792e4;
+    background-color: white;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 20px;
+}
 /********************/
 /* Proprietà footer */
 /********************/
@@ -138,6 +164,8 @@ h1 {
 /***************/
 /* Media query */
 /***************/
+/* Tablet */
+/**********/
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .skilz {
         display: flex;
@@ -165,6 +193,9 @@ h1 {
         display: flex;
     }
 }
+/***********/
+/* Desktop */
+/***********/
 @media screen and (min-width: 769px) {
     nav {
         width: 100%;
@@ -202,13 +233,20 @@ h1 {
         margin: 0;
     }
     .testimonial {
-        width: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2 - 40px);
         margin: 0 auto;
     }
     .user {
         display: flex;
         align-items: center;
         text-align: left;
+        justify-content: space-between;
+    }
+    .us1 {
+        width: 30%;
+    }
+    .us2 {
+        width: 60%;
     }
     .benefit {
         width: calc(100% / 3 * 2 );
@@ -217,7 +255,7 @@ h1 {
         justify-content: center;
     }
     .benefit1 {
-        width: calc(100% / 3 - 25px);
+        width: calc(90% / 3 - 20px);
         margin: 5px;
     }
     .aboutUs {
