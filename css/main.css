@@ -12,7 +12,7 @@
 /********************/
 nav {
     background-color: #0084fd;
-    max-width: 480px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +49,9 @@ nav {
 }
 .centerText{
     text-align: center;
+}
+.sLogo {
+    font-size: 50px;
 }
 /*****************/
 /* Section plans */
@@ -98,4 +101,129 @@ nav {
     border-radius: 20px;
     padding: 40px;
     margin: 30px auto;
+}
+/**********************/
+/* Section getStarted */
+/**********************/
+.getStarted{
+    background-color: #9792e4;
+    padding: 40px;
+    color: white;
+}
+h1 {
+    color: orange;
+}
+.dot {
+    font-size: 5px;
+    text-align: top;
+}
+/********************/
+/* Proprietà footer */
+/********************/
+.infoBox {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+/***************/
+/* Media query */
+/***************/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .skilz {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skilz > div {
+        width: calc(100% / 3 - 15px);
+        margin: 5px;
+    }
+    .demo {
+        width: calc(100% / 3 * 2 - 20px)!important;
+    }
+    .user {
+         display: flex;
+    }
+    .benefit {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .benefit1 {
+        width: calc(100% / 2 - 10px);
+        margin: 5px;
+    }
+    .aboutUs {
+        display: flex;
+    }
+}
+@media screen and (min-width: 769px) {
+    nav {
+        width: 100%;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .skills {
+        width: calc(100% / 3 * 2);
+        margin: 0 auto;
+    }
+    .skilz {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100 / 3 * 2);
+        margin: 0 auto;
+    }
+    .skilz > div {
+        width: calc(100% / 3 - 15px);
+        margin: 5px;
+    }
+    .demo {
+        width: calc(100% / 3 * 2 - 20px)!important;
+    }
+    .planz {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .planz > div {
+        width: calc(100% / 3);
+        margin: 0;
+    }
+    .testimonial {
+        width: calc(100% / 3 * 2);
+        margin: 0 auto;
+    }
+    .user {
+        display: flex;
+    }
+    .benefit {
+        width: calc(100% / 3 * 2 );
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .benefit1 {
+        width: calc(100% / 3 - 25px);
+        margin: 5px;
+    }
+    .aboutUs {
+        width: calc(100% / 3);
+        display: flex;
+        margin: 0 auto;
+    }
+    :first-child .aboutUs {
+        width: calc(100% / 3 * 2);
+    }
+    .getStarted {
+        display: flex;
+        justify-content: center;
+    }
+    .getStarted > div {
+        width: calc(100% / 2);
+    }
+    .infoBox {
+        display: flex;
+        justify-content: center;
+    }
+    .info {
+        width: calc(100% / 2);
+    }
 }
