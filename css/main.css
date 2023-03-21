@@ -102,6 +102,16 @@ nav {
     padding: 40px;
     margin: 30px auto;
 }
+.vText {
+    color: #9792e4;
+}
+.bBtn {
+    color: white;
+    background-color: #9792e4;
+    padding: 5px 30px;
+    border: 0px;
+    border-radius: 20px;
+}
 /**********************/
 /* Section getStarted */
 /**********************/
@@ -177,6 +187,10 @@ h1 {
     }
     .demo {
         width: calc(100% / 3 * 2 - 20px)!important;
+        display: flex;
+    }
+    .screenshot {
+        display: flex;
     }
     .planz {
         display: flex;
@@ -184,7 +198,7 @@ h1 {
         margin: 0 auto;
     }
     .planz > div {
-        width: calc(100% / 3);
+        width: calc(100% / 4);
         margin: 0;
     }
     .testimonial {
@@ -193,6 +207,8 @@ h1 {
     }
     .user {
         display: flex;
+        align-items: center;
+        text-align: left;
     }
     .benefit {
         width: calc(100% / 3 * 2 );
